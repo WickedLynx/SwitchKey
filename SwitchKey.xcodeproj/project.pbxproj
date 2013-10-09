@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4BB287180556B800FBADA1 /* HVDKeyMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4BB286180556B800FBADA1 /* HVDKeyMenuItem.m */; };
+		FAA5536E1804250C00BF91C9 /* HVDRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5536D1804250C00BF91C9 /* HVDRootController.m */; };
+		FAA553701804344900BF91C9 /* AddWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5536F1804344900BF91C9 /* AddWindow.xib */; };
+		FADCA5881803F7F900588BDC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADCA5871803F7F900588BDC /* Cocoa.framework */; };
+		FADCA5921803F7F900588BDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FADCA5901803F7F900588BDC /* InfoPlist.strings */; };
+		FADCA5941803F7F900588BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCA5931803F7F900588BDC /* main.m */; };
+		FADCA5981803F7F900588BDC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FADCA5961803F7F900588BDC /* Credits.rtf */; };
+		FADCA59B1803F7F900588BDC /* HVDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCA59A1803F7F900588BDC /* HVDAppDelegate.m */; };
+		FADCA59E1803F7F900588BDC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADCA59C1803F7F900588BDC /* MainMenu.xib */; };
+		FADCA5A01803F7F900588BDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADCA59F1803F7F900588BDC /* Images.xcassets */; };
+		FADCA5A71803F7F900588BDC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADCA5A61803F7F900588BDC /* XCTest.framework */; };
+		FADCA5A81803F7F900588BDC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADCA5871803F7F900588BDC /* Cocoa.framework */; };
+		FADCA5B01803F7F900588BDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FADCA5AE1803F7F900588BDC /* InfoPlist.strings */; };
+		FADCA5B21803F7F900588BDC /* SwitchKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCA5B11803F7F900588BDC /* SwitchKeyTests.m */; };
+		FADCA5C51804066700588BDC /* HVDSSHCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCA5C41804066700588BDC /* HVDSSHCredential.m */; };
+		FADCA5C918040A2C00588BDC /* HVDSSHCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FADCA5C818040A2C00588BDC /* HVDSSHCredentialStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADCA5A91803F7F900588BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADCA57C1803F7F900588BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADCA5831803F7F900588BDC;
+			remoteInfo = SwitchKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4BB285180556B800FBADA1 /* HVDKeyMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVDKeyMenuItem.h; sourceTree = "<group>"; };
+		FA4BB286180556B800FBADA1 /* HVDKeyMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVDKeyMenuItem.m; sourceTree = "<group>"; };
+		FAA5536C1804250C00BF91C9 /* HVDRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVDRootController.h; sourceTree = "<group>"; };
+		FAA5536D1804250C00BF91C9 /* HVDRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVDRootController.m; sourceTree = "<group>"; };
+		FAA5536F1804344900BF91C9 /* AddWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddWindow.xib; sourceTree = "<group>"; };
+		FADCA5841803F7F900588BDC /* SwitchKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCA5871803F7F900588BDC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FADCA58A1803F7F900588BDC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FADCA58B1803F7F900588BDC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FADCA58C1803F7F900588BDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FADCA58F1803F7F900588BDC /* SwitchKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchKey-Info.plist"; sourceTree = "<group>"; };
+		FADCA5911803F7F900588BDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FADCA5931803F7F900588BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADCA5951803F7F900588BDC /* SwitchKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchKey-Prefix.pch"; sourceTree = "<group>"; };
+		FADCA5971803F7F900588BDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FADCA5991803F7F900588BDC /* HVDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVDAppDelegate.h; sourceTree = "<group>"; };
+		FADCA59A1803F7F900588BDC /* HVDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVDAppDelegate.m; sourceTree = "<group>"; };
+		FADCA59D1803F7F900588BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FADCA59F1803F7F900588BDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FADCA5A51803F7F900588BDC /* SwitchKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADCA5A61803F7F900588BDC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FADCA5AD1803F7F900588BDC /* SwitchKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchKeyTests-Info.plist"; sourceTree = "<group>"; };
+		FADCA5AF1803F7F900588BDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FADCA5B11803F7F900588BDC /* SwitchKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchKeyTests.m; sourceTree = "<group>"; };
+		FADCA5C31804066700588BDC /* HVDSSHCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVDSSHCredential.h; sourceTree = "<group>"; };
+		FADCA5C41804066700588BDC /* HVDSSHCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVDSSHCredential.m; sourceTree = "<group>"; };
+		FADCA5C718040A2C00588BDC /* HVDSSHCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVDSSHCredentialStore.h; sourceTree = "<group>"; };
+		FADCA5C818040A2C00588BDC /* HVDSSHCredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVDSSHCredentialStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADCA5811803F7F900588BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA5881803F7F900588BDC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA5A21803F7F900588BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA5A81803F7F900588BDC /* Cocoa.framework in Frameworks */,
+				FADCA5A71803F7F900588BDC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4BB2841805569200FBADA1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FA4BB285180556B800FBADA1 /* HVDKeyMenuItem.h */,
+				FA4BB286180556B800FBADA1 /* HVDKeyMenuItem.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FADCA57B1803F7F900588BDC = {
+			isa = PBXGroup;
+			children = (
+				FADCA58D1803F7F900588BDC /* SwitchKey */,
+				FADCA5AB1803F7F900588BDC /* SwitchKeyTests */,
+				FADCA5861803F7F900588BDC /* Frameworks */,
+				FADCA5851803F7F900588BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADCA5851803F7F900588BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA5841803F7F900588BDC /* SwitchKey.app */,
+				FADCA5A51803F7F900588BDC /* SwitchKeyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADCA5861803F7F900588BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA5871803F7F900588BDC /* Cocoa.framework */,
+				FADCA5A61803F7F900588BDC /* XCTest.framework */,
+				FADCA5891803F7F900588BDC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADCA5891803F7F900588BDC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA58A1803F7F900588BDC /* AppKit.framework */,
+				FADCA58B1803F7F900588BDC /* CoreData.framework */,
+				FADCA58C1803F7F900588BDC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FADCA58D1803F7F900588BDC /* SwitchKey */ = {
+			isa = PBXGroup;
+			children = (
+				FA4BB2841805569200FBADA1 /* Other */,
+				FADCA5C01804063800588BDC /* Controllers */,
+				FADCA5C11804063800588BDC /* Model */,
+				FADCA5C21804063800588BDC /* Views */,
+				FADCA5991803F7F900588BDC /* HVDAppDelegate.h */,
+				FADCA59A1803F7F900588BDC /* HVDAppDelegate.m */,
+				FADCA59C1803F7F900588BDC /* MainMenu.xib */,
+				FAA5536F1804344900BF91C9 /* AddWindow.xib */,
+				FADCA59F1803F7F900588BDC /* Images.xcassets */,
+				FADCA58E1803F7F900588BDC /* Supporting Files */,
+			);
+			path = SwitchKey;
+			sourceTree = "<group>";
+		};
+		FADCA58E1803F7F900588BDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA58F1803F7F900588BDC /* SwitchKey-Info.plist */,
+				FADCA5901803F7F900588BDC /* InfoPlist.strings */,
+				FADCA5931803F7F900588BDC /* main.m */,
+				FADCA5951803F7F900588BDC /* SwitchKey-Prefix.pch */,
+				FADCA5961803F7F900588BDC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADCA5AB1803F7F900588BDC /* SwitchKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA5B11803F7F900588BDC /* SwitchKeyTests.m */,
+				FADCA5AC1803F7F900588BDC /* Supporting Files */,
+			);
+			path = SwitchKeyTests;
+			sourceTree = "<group>";
+		};
+		FADCA5AC1803F7F900588BDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA5AD1803F7F900588BDC /* SwitchKeyTests-Info.plist */,
+				FADCA5AE1803F7F900588BDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADCA5C01804063800588BDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5536C1804250C00BF91C9 /* HVDRootController.h */,
+				FAA5536D1804250C00BF91C9 /* HVDRootController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FADCA5C11804063800588BDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FADCA5C31804066700588BDC /* HVDSSHCredential.h */,
+				FADCA5C41804066700588BDC /* HVDSSHCredential.m */,
+				FADCA5C718040A2C00588BDC /* HVDSSHCredentialStore.h */,
+				FADCA5C818040A2C00588BDC /* HVDSSHCredentialStore.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADCA5C21804063800588BDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADCA5831803F7F900588BDC /* SwitchKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCA5B51803F7F900588BDC /* Build configuration list for PBXNativeTarget "SwitchKey" */;
+			buildPhases = (
+				FADCA5801803F7F900588BDC /* Sources */,
+				FADCA5811803F7F900588BDC /* Frameworks */,
+				FADCA5821803F7F900588BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchKey;
+			productName = SwitchKey;
+			productReference = FADCA5841803F7F900588BDC /* SwitchKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADCA5A41803F7F900588BDC /* SwitchKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADCA5B81803F7F900588BDC /* Build configuration list for PBXNativeTarget "SwitchKeyTests" */;
+			buildPhases = (
+				FADCA5A11803F7F900588BDC /* Sources */,
+				FADCA5A21803F7F900588BDC /* Frameworks */,
+				FADCA5A31803F7F900588BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADCA5AA1803F7F900588BDC /* PBXTargetDependency */,
+			);
+			name = SwitchKeyTests;
+			productName = SwitchKeyTests;
+			productReference = FADCA5A51803F7F900588BDC /* SwitchKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADCA57C1803F7F900588BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HVD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Laughing Buddha Software";
+				TargetAttributes = {
+					FADCA5A41803F7F900588BDC = {
+						TestTargetID = FADCA5831803F7F900588BDC;
+					};
+				};
+			};
+			buildConfigurationList = FADCA57F1803F7F900588BDC /* Build configuration list for PBXProject "SwitchKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADCA57B1803F7F900588BDC;
+			productRefGroup = FADCA5851803F7F900588BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADCA5831803F7F900588BDC /* SwitchKey */,
+				FADCA5A41803F7F900588BDC /* SwitchKeyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADCA5821803F7F900588BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA5921803F7F900588BDC /* InfoPlist.strings in Resources */,
+				FAA553701804344900BF91C9 /* AddWindow.xib in Resources */,
+				FADCA5A01803F7F900588BDC /* Images.xcassets in Resources */,
+				FADCA5981803F7F900588BDC /* Credits.rtf in Resources */,
+				FADCA59E1803F7F900588BDC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA5A31803F7F900588BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA5B01803F7F900588BDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADCA5801803F7F900588BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4BB287180556B800FBADA1 /* HVDKeyMenuItem.m in Sources */,
+				FADCA5C51804066700588BDC /* HVDSSHCredential.m in Sources */,
+				FADCA5941803F7F900588BDC /* main.m in Sources */,
+				FADCA5C918040A2C00588BDC /* HVDSSHCredentialStore.m in Sources */,
+				FAA5536E1804250C00BF91C9 /* HVDRootController.m in Sources */,
+				FADCA59B1803F7F900588BDC /* HVDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADCA5A11803F7F900588BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADCA5B21803F7F900588BDC /* SwitchKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADCA5AA1803F7F900588BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADCA5831803F7F900588BDC /* SwitchKey */;
+			targetProxy = FADCA5A91803F7F900588BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADCA5901803F7F900588BDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA5911803F7F900588BDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FADCA5961803F7F900588BDC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA5971803F7F900588BDC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FADCA59C1803F7F900588BDC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA59D1803F7F900588BDC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FADCA5AE1803F7F900588BDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADCA5AF1803F7F900588BDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADCA5B31803F7F900588BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FADCA5B41803F7F900588BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FADCA5B61803F7F900588BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchKey/SwitchKey-Prefix.pch";
+				INFOPLIST_FILE = "SwitchKey/SwitchKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FADCA5B71803F7F900588BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchKey/SwitchKey-Prefix.pch";
+				INFOPLIST_FILE = "SwitchKey/SwitchKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FADCA5B91803F7F900588BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchKey.app/Contents/MacOS/SwitchKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchKey/SwitchKey-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwitchKeyTests/SwitchKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FADCA5BA1803F7F900588BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchKey.app/Contents/MacOS/SwitchKey";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchKey/SwitchKey-Prefix.pch";
+				INFOPLIST_FILE = "SwitchKeyTests/SwitchKeyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADCA57F1803F7F900588BDC /* Build configuration list for PBXProject "SwitchKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCA5B31803F7F900588BDC /* Debug */,
+				FADCA5B41803F7F900588BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCA5B51803F7F900588BDC /* Build configuration list for PBXNativeTarget "SwitchKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCA5B61803F7F900588BDC /* Debug */,
+				FADCA5B71803F7F900588BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADCA5B81803F7F900588BDC /* Build configuration list for PBXNativeTarget "SwitchKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADCA5B91803F7F900588BDC /* Debug */,
+				FADCA5BA1803F7F900588BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADCA57C1803F7F900588BDC /* Project object */;
+}
