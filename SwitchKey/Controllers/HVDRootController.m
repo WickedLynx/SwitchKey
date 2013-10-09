@@ -157,6 +157,8 @@ NSString *RCGitConfigTemplate = @"[user]\n\tname = \n\temail = ";
 
         [HVDSSHCredentialStore setCurrentCredential:theMenuItem.credential];
 
+        [NSTask launchedTaskWithLaunchPath:@"/usr/bin/ssh-add" arguments:@[@"-D"]];
+
         [self refreshCurrentKeyMenuItem];
         [self refreshKeysSubmenu];
     }
