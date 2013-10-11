@@ -39,6 +39,22 @@ NSString *const CSCredentialsFileName = @"Credentials.plist";
         if (self.credentials.count == 0 && [HVDSSHCredentialStore credentialsAvailable]) {
 
             [self addCredential:[HVDSSHCredentialStore currentCredential]];
+
+        } else {
+
+            HVDSSHCredential *currentCredential = [HVDSSHCredentialStore currentCredential];
+            BOOL credentialAlreadyAdded = NO;
+
+            for (HVDSSHCredential *aCredential in self.credentials) {
+
+                if ([aCredential isIdenticalToCredential:currentCredential]) {
+                    credentialAlreadyAdded = YES;
+                }
+            }
+
+            if (!credentialAlreadyAdded) {
+                [self addCredential:currentCredential];
+            }
         }
 
     }

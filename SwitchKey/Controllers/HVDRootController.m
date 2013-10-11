@@ -44,7 +44,8 @@ NSString *RCGitConfigTemplate = @"[user]\n\tname = \n\temail = ";
 }
 
 - (IBAction)clickPreferences:(id)sender {
-    [self.preferencesWindow makeKeyAndOrderFront:self];
+
+    [self.preferencesWindow orderFrontRegardless];
 
 }
 
